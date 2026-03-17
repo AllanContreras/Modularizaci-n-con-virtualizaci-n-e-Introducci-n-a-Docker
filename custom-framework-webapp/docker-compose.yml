@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: custom-web
+    ports:
+      - "8088:6000"
+
+# Si luego necesitas una base de datos, puedes agregar más servicios aquí.
