@@ -28,6 +28,7 @@ mvn clean package
 docker build -t springdockerdemo .
 docker run -d -p 34000:5000 --name springdemo springdockerdemo
 ```
+<img width="1317" height="628" alt="image" src="https://github.com/user-attachments/assets/2215a636-a31a-4827-b1ee-d0c0a9407dd5" />
 
 Luego abre en el navegador:
 
